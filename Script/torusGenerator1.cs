@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 [ExecuteInEditMode]
 [RequireComponent (typeof(MeshFilter))]
 [RequireComponent(typeof(MeshRenderer))]
@@ -42,8 +43,9 @@ public class torusGenerator : MonoBehaviour
             
             }, MeshTopology.Triangles, 0);
             model3D.RecalculateBounds();
-            Debug.Log("Modele 3D généré");
+            Debug.Log("Modele 3D gÃ©nÃ©rÃ©");
             creationProcess = false;
         }
     }
 }
+
